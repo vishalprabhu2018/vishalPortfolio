@@ -137,8 +137,10 @@ a {
     margin: 4em;
 }
 
-#cards {
+#cards,
+#cards2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
@@ -155,14 +157,13 @@ a {
 }
 
 /* softskill */
+
 .softSkills {
     /* height: 80vh; */
 }
 
-#cards2 {
-    display: flex;
-    justify-content: space-evenly;
-}
+
+
 
 #b2 {
     box-shadow: .1em .2em 1em var(--text-color);
@@ -183,6 +184,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #b3 {

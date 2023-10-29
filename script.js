@@ -78,28 +78,28 @@ const github=document.querySelector('#github');
 
     //CDN
   
-    function sendMail(){
-    // smtpjs.com 
-//elastic email 
- let name= document.getElementById("name").value;
- let email=document.getElementById("email").value;
- let message=document.getElementById("message").value;
+//     function sendMail(){
+//     // smtpjs.com 
+// //elastic email 
+//  let name= document.getElementById("name").value;
+//  let email=document.getElementById("email").value;
+//  let message=document.getElementById("message").value;
 
-   let body=`Name:${name}<br>Email:${email} <br>Message: ${message} ` ;
-   console.log(body);
+//    let body=`Name:${name}<br>Email:${email} <br>Message: ${message} ` ;
+//    console.log(body);
    
-        Email.send({
-        Host : "smtp.elasticemail.com",
-        Username : "prabhuvishal2019@gmail.com",
-        Password : "563D6496248CBADD6F8F391D501C376E73EB",
-        To : 'prabhuvishal2018@gmail.com',
-        From : 'prabhuvishal2019@gmail.com',
-        Subject : "Contact Me Form enquiry",
-        Body : "All  done"
-    }).then(
-      message => alert(message)
-    );
-    }
+//         Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "prabhuvishal2019@gmail.com",
+//         Password : "563D6496248CBADD6F8F391D501C376E73EB",
+//         To : 'prabhuvishal2018@gmail.com',
+//         From : 'prabhuvishal2019@gmail.com',
+//         Subject : "Contact Me Form enquiry",
+//         Body : "All  done"
+//     }).then(
+//       message => alert(message)
+//     );
+//     }
 
     buttonLink();
     makeCard(arr);
