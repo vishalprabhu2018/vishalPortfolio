@@ -4,7 +4,7 @@
 const arr=['HTML','CSS','JS', 'React'];
 const arr2=['./assests/images/communication.png','./assests/images/creativity.png', './assests/images/decision-making.png', './assests/images/teamwork.png'];
 const arr3=[{name:'bubble game', link:'https://vishalprabhu2018.github.io/bubbleGame/'}]
-const arr4=['bubble game','google.com']
+
 
 //skills card
 function makeCard(arr){
