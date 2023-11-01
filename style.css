@@ -182,9 +182,10 @@ a {
 
 #cards3 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+
 }
 
 #b3 {

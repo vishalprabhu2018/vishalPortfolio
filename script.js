@@ -3,8 +3,8 @@
 
 const arr=['HTML','CSS','JS', 'React'];
 const arr2=['./assests/images/communication.png','./assests/images/creativity.png', './assests/images/decision-making.png', './assests/images/teamwork.png'];
-const arr3=['https://vishalprabhu2018.github.io/bubbleGame/']
-const arr4=['bubble game']
+const arr3=[{name:'bubble game', link:'https://vishalprabhu2018.github.io/bubbleGame/'}]
+const arr4=['bubble game','google.com']
 
 //skills card
 function makeCard(arr){
@@ -31,12 +31,18 @@ function makeCard2(arr){
     }
     
     //Projects
-    function makeCard3(arr,arrN){
-        let element='';
+    function makeCard3(arr){
+
+        element='';
+        let op=arr.forEach((item)=>{
+            element+=`<div class='box' id='b3'> <a href=${item.link} target='_blank'> ${item.name} </a> </div>`
+        })
         
-        for(let i=0;i<arr.length;i++){
-        element+=`<div class='box' id='b3'> <a href=${arr[i]} target='_blank'> ${arrN[i]} </a> </div>`
-        }
+        // for(let i=0;i<arr.length;i++){
+        // element+=`<div class='box' id='b3'> <a href=${arr[i]} target='_blank'> ${arrN[i]} </a> </div>`
+        // }
+
+
         
         document.querySelector('#cards3').innerHTML=element;
         }
@@ -104,4 +110,4 @@ const github=document.querySelector('#github');
     buttonLink();
     makeCard(arr);
     makeCard2(arr2);
-    makeCard3(arr3,arr4);
+    makeCard3(arr3);
