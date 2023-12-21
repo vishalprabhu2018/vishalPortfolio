@@ -3,7 +3,7 @@
 
 const arr=['HTML','CSS','JS'];
 const arr2=['./assests/images/communication.png','./assests/images/creativity.png', './assests/images/decision-making.png', './assests/images/teamwork.png'];
-const arr3=[{name:'bubble game', link:'https://vishalprabhu2018.github.io/bubbleGame/'},{name:'todo List', link:'https://todo-nu-five-26.vercel.app/'}]
+const arr3=[{name:'BUBBLE GAME', link:'https://vishalprabhu2018.github.io/bubbleGame/',github:'htttps://google.com'},{name:'TODO List', link:'https://todo-nu-five-26.vercel.app/',github:'https://www.google.com'}]
 
 
 //skills card
@@ -35,7 +35,7 @@ function makeCard2(arr){
 
         element='';
         let op=arr.forEach((item)=>{
-            element+=`<div class='box' id='b3'> <a href=${item.link} target='_blank'> ${item.name} </a> </div>`
+            element+=`<div class='box flex-col' id='b3'> <p>Click Links</p> <a class="red" href=${item.link} target='_blank'> ${item.name} </a> <a href=${item.github} class="red" target='_blank'> Source Code </a></div>`
         })
         
         // for(let i=0;i<arr.length;i++){

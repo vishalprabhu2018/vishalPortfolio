@@ -235,6 +235,14 @@ form button {
 }
 
 
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.red{
+    color:#c85c5c
+}
 
 /* media queries */
 /* 
@@ -250,6 +258,7 @@ form button {
         gap: 5em;
         max-width: 70em;
         overflow-wrap: inherit;
+        
     }
 
     header {
