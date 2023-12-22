@@ -3,7 +3,7 @@
 
 const arr=['HTML','CSS','JS'];
 const arr2=['./assests/images/communication.png','./assests/images/creativity.png', './assests/images/decision-making.png', './assests/images/teamwork.png'];
-const arr3=[{name:'BUBBLE GAME', link:'https://vishalprabhu2018.github.io/bubbleGame/',github:'htttps://google.com'},{name:'TODO List', link:'https://todo-nu-five-26.vercel.app/',github:'https://www.google.com'}]
+const arr3=[{name:'BUBBLE GAME', link:'https://vishalprabhu2018.github.io/bubbleGame/',github:'https://github.com/vishalprabhu2018/bubbleGame'},{name:'TODO List', link:'https://todo-nu-five-26.vercel.app/',github:'https://github.com/vishalprabhu2018/Todo'}]
 
 
 //skills card
